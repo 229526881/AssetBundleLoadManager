@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: loading
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 5579b3af05ea52b4f91273655b72f887, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: c5c278402ce01f243be78c8ded4a0c0e, type: 3}
+  - {fileID: 21300000, guid: 7c87c0906c9e43f429d1b525a082b9c8, type: 3}
+  - {fileID: 21300000, guid: 81f24b51826f33b4b938a7f8195bf1f9, type: 3}
+  - {fileID: 21300000, guid: c1ab0783bbf4521409106d6763c87b25, type: 3}
+  - {fileID: 21300000, guid: 067917e4fa099224fb0870d5b28527e6, type: 3}
+  - {fileID: 21300000, guid: dbf98e567a1684648b099855959bdf85, type: 3}
+  - {fileID: 21300000, guid: 2eab9388c6908a1488e9fe0748d9b859, type: 3}
+  - {fileID: 21300000, guid: b4f6e6d9d59b83d40b1fc7667a772322, type: 3}
+  - {fileID: 21300000, guid: 18fcd2ca3f9759f469f124be2aefe437, type: 3}
+  - {fileID: 21300000, guid: 387112fa2a699bc44899c8ea60f87318, type: 3}
+  - {fileID: 21300000, guid: 7ba6328b9bf25e44d90e00ef64539bac, type: 3}
+  - {fileID: 21300000, guid: a45f8dae760c3a8438f196676f43f727, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - jindutiaodi
+  - bgTest
+  - lunzi
+  - bg
+  - fasier
+  - tou
+  - weiqi
+  - yuchi
+  - shenti
+  - fawei
+  - jindutiao
+  - weiba
+  m_RenderDataMap: {}
+  m_Tag: loading
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

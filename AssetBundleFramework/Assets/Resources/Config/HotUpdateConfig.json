@@ -1,5 +1,6 @@
 {
-	"APKName" : "AssetBundleFramework.apk",
+	"APKName" : "UnityFramework.apk",
 	"HotUpdateLocalURL" : "http://192.168.1.3/AssetBundleFramework/",
-	"HotUpdateURL" : "https://static-resource-server.oss-cn-shenzhen.aliyuncs.com/AssetBundleFramework/"
+	"HotUpdateURL" :"http://10.0.3.213/LocalCdn/UnityFramework/",
+	"HotUpdateURL1" : "http://downloadclient.moxigame.top:20000/HotFix/"
 }
