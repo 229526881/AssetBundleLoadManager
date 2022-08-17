@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class GameLogic : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class GameLogic : MonoBehaviour
     private TResource.ResourceModuleManager mRMM;
 
     private AudioSource mBGMAudioSource;
+
+    //原生消息展示
+    public Text m_TxtNative;
 
     private void Awake()
     {
@@ -89,6 +93,9 @@ public class GameLogic : MonoBehaviour
     private void addMonoComponents()
     {
         gameObject.AddComponent<CoroutineManager>();
+        //接收原生层的消息处理
+        gameObject.AddComponent<NativeMessageHandler>();
+        NativeMessageHandler.Singleton.TxtNativeOutput = m_TxtNative;
         UIManager.Singleton.Init(transform.Find("UIRoot") as RectTransform,
             transform.Find("UIRoot/WndRoot") as RectTransform, transform.Find("UIRoot/UICamera").GetComponent<Camera>(),
             transform.Find("UIRoot/EventSystem").GetComponent<EventSystem>());
@@ -136,7 +143,7 @@ public class GameLogic : MonoBehaviour
                     {
                         DIYLog.Log("版本强更完成!触发自动安装！");
 #if UNITY_ANDROID
-                        (NativeManager.Singleton as AndroidNativeManager).installAPK(HotUpdateModuleManager.Singleton.VersionHotUpdateCacheFilePath);
+                        (NativeManager.Singleton as AndroidNativeManager).InstallApk(HotUpdateModuleManager.Singleton.VersionHotUpdateCacheFilePath);
 #endif
                         return;
                     }

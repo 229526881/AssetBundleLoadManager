@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Description:             AndroidNativeManager.cs
  * Author:                  TONYTANG
  * Create Date:             2018/08/10
@@ -22,6 +22,11 @@ public class AndroidNativeManager : NativeManager
     private AndroidJavaObject mAndroidActivity;
 
     /// <summary>
+    /// 工具类相关的Andorid对象（存在工程中）
+    /// </summary>
+    AndroidJavaObject customToolObject;
+
+    /// <summary>
     /// 初始化
     /// </summary>
     public override void init()
@@ -43,6 +48,7 @@ public class AndroidNativeManager : NativeManager
                     Debug.Log("获取UnityMainActivity::mAndroidActivity成员成功!");
                 }
             }
+            customToolObject = new AndroidJavaObject("com.Unity.Tools.UTool");
         }
     }
 
@@ -69,6 +75,25 @@ public class AndroidNativeManager : NativeManager
         {
             mAndroidActivity.Call("installAPK", apkfilepath);
         }
+
     }
+    #region 工具类方法
+
+    /// <summary>
+    /// 强更APK
+    /// </summary>
+    /// <param name="apkfilepath">APK文件路径,注意下载路径要和FileProvider路径对应</param>
+    public bool InstallApk(string apkfilepath)
+    {
+        bool state = false;
+        if (customToolObject != null)
+        {
+             state = customToolObject.Call<bool>("installApk", apkfilepath);
+        }
+        Debug.Log("apk安装:" + state);
+        return state;
+    }
+    #endregion
+
 }
 #endif

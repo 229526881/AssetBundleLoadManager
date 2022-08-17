@@ -170,6 +170,7 @@ namespace TResource
 
             gameObject.AddComponent<CoroutineManager>();
 
+            //接收原生层的消息处理
             gameObject.AddComponent<NativeMessageHandler>();
             NativeMessageHandler.Singleton.TxtNativeOutput = TxtNativeOutput;
         }
