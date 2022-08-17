@@ -265,7 +265,6 @@
     <None Include="Assets\Res\buildinresources\buildinshaders\DefaultResourcesExtra\Illumin-BumpSpec.shader" />
     <None Include="Assets\Res\buildinresources\buildinshaders\DefaultResourcesExtra\Internal-StencilWrite.shader" />
     <None Include="Assets\Res\buildinresources\buildinshaders\DefaultResourcesExtra\Particle MultiplyDouble.shader" />
-    <None Include="Assets\codeandweb.com\Readme.txt" />
     <None Include="Assets\Res\buildinresources\buildinshaders\DefaultResourcesExtra\Internal-GUITextureClipText.shader" />
     <None Include="Assets\Res\buildinresources\buildinshaders\DefaultResourcesExtra\UI\UI-DefaultFont.shader" />
     <None Include="Assets\Res\buildinresources\buildinshaders\DefaultResourcesExtra\VR\Shaders\SpatialMappingWireframe.shader" />

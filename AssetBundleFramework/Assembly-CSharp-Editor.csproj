@@ -99,10 +99,6 @@
     <Compile Include="Assets\Scripts\Framework\ILRuntime\Editor\TestEditor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
-    <None Include="Assets\codeandweb.com\Editor\TexturePackerImporter.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>G:\UnityHub\Unity\2020.3.34f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -342,9 +338,6 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
-    </Reference>
-    <Reference Include="TexturePackerImporter">
-      <HintPath>Assets\codeandweb.com\Editor\TexturePackerImporter.dll</HintPath>
     </Reference>
     <Reference Include="DIYLog">
       <HintPath>Assets\Plugins\DIYLog.dll</HintPath>
