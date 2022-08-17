@@ -87,6 +87,16 @@ public class BuildWindow : BaseEditorWindow
     }
 
     /// <summary>
+    /// 是否更新强更版本
+    /// </summary>
+    public bool IsUpdateForcePackage
+    {
+        get;
+        set;
+    }
+
+
+    /// <summary>
     /// 打包输出路径
     /// </summary>
     public string BuildOutputPath
@@ -179,6 +189,8 @@ public class BuildWindow : BaseEditorWindow
         BuildTarget = (BuildTarget)EditorGUILayout.EnumPopup(BuildTarget, GUILayout.Width(100.0f));
         EditorGUILayout.LabelField($"开发版本:", GUILayout.Width(60f), GUILayout.Height(20f));
         IsDevelopment = EditorGUILayout.Toggle(IsDevelopment, GUILayout.Width(20f));
+        EditorGUILayout.LabelField($"覆盖强更包:", GUILayout.Width(60f), GUILayout.Height(20f));
+        IsUpdateForcePackage = EditorGUILayout.Toggle(IsUpdateForcePackage, GUILayout.Width(20f));
         if (GUILayout.Button("修改包内版本信息", GUILayout.Width(120f), GUILayout.Height(20f)))
         {
             DoModifyInnerVersionConfig();
@@ -245,6 +257,8 @@ public class BuildWindow : BaseEditorWindow
         }
         BuildVersion = buildVersion.ToString("N1", CultureInfo.CreateSpecificCulture("en-US"));
         buildVersion = double.Parse(BuildVersion);
-        BuildTool.DoBuild(BuildOutputPath, BuildTarget, buildVersion, BuildResourceVersion, IsDevelopment);
+        BuildTool.DoBuild(BuildOutputPath, BuildTarget, buildVersion, BuildResourceVersion, IsDevelopment, IsUpdateForcePackage);
     }
+
+
 }

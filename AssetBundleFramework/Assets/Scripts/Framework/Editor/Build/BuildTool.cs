@@ -56,7 +56,7 @@ public static class BuildTool
     /// <param name="versionCode">版本号</param>
     /// <param name="resourceVersionCode">资源版本号</param>
     /// <param name="isDevelopment">是否打开发包</param>
-    public static void DoBuild(string buildOutputPath, BuildTarget buildTarget, double versionCode, int resourceVersionCode, bool isDevelopment = false)
+    public static void DoBuild(string buildOutputPath, BuildTarget buildTarget, double versionCode, int resourceVersionCode, bool isDevelopment = false, bool isUpdateForcePackage = false)
     {
         Debug.Log("BuildTool.DoBuild()");
         // 版本号格式只允许*.*
@@ -73,6 +73,7 @@ public static class BuildTool
         // 输出目录结构:Build/版本号/资源版本号/时间戳/包名.apk
         var now = DateTime.Now;
         var timeStamp = $"{now.Year}_{now.Month}_{now.Day}_{now.Hour}_{now.Minute}_{now.Second}";
+        string forcePackUrl = $"{buildOutputPath}/{versionCode}/";
         buildOutputPath = $"{buildOutputPath}/{versionCode}/{resourceVersionCode}/{timeStamp}";
         Debug.Log($"buildOutputPath:{buildOutputPath}");
         if (!string.IsNullOrEmpty(buildOutputPath))
@@ -116,6 +117,12 @@ public static class BuildTool
                 // 拷贝AssetBundleMd5.txt到打包输出目录(未来热更新对比需要的文件)
                 var innerAssetBundleMd5FilePath = AssetBundlePath.GetInnerAssetBundleMd5FilePath();
                 FileUtilities.CopyFileToFolder(innerAssetBundleMd5FilePath, buildOutputPath);
+                //思考下这个移动强更包的逻辑是否要手动操作，暂时自动实现吧
+                if (isUpdateForcePackage)
+                {
+                    string packageUrl = $"{buildOutputPath}{Path.DirectorySeparatorChar}{PlayerSettings.productName}{GetCorrespondingBuildFilePostfix(buildTarget)}";
+                    FileUtilities.CopyFileToFolder(packageUrl, forcePackUrl);
+                }
             }
             else
             {
@@ -185,5 +192,17 @@ public static class BuildTool
             default:
                 return "";
         }
+    }
+
+    //需要移动最近的包到热更包体中
+
+    [UnityEditor.Callbacks.PostProcessBuild(9999)]
+    public static void AndroidAutoMove(BuildTarget target, string pathToBuildProject)
+    {
+        //在完成打包后自动迁移项目
+        if (target != BuildTarget.Android)
+            return;
+
+        Debug.Log("hahahhahh");
     }
 }

@@ -1,141 +1,59 @@
 ManifestFileVersion: 0
-CRC: 374284868
+CRC: 2275672472
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: assets/res/atlas/shareatlas/spriteatlas/playerpreview.android
+      Name: assets/_assets/uiassets/uitextures/common.android
       Dependencies: {}
     Info_1:
-      Name: assets/res/atlas/shareatlas/spriteatlas/playerpreview2.android
+      Name: assets/_assets/uiassets/uitextures/common1.android
       Dependencies: {}
     Info_2:
-      Name: assets/res/atlas/shareatlas/tutorialatlas.android
+      Name: assets/_assets/uiassets/uitextures/loading.android
       Dependencies: {}
     Info_3:
-      Name: assets/res/audios/music/backgroundmusic.android
-      Dependencies: {}
+      Name: assets/_assets/uiassets/uiprefabs/common/loadingpanel.android
+      Dependencies:
+        Dependency_0: assets/_assets/uiassets/uitextures/loading.android
+        Dependency_1: assets/_assets/uiassets/uianim/loading.android
     Info_4:
-      Name: assets/res/audios/music/df_bg_music.android
+      Name: assets/_assets/uiassets/uianim/loading.android
       Dependencies: {}
     Info_5:
-      Name: assets/res/audios/sfx/sfx1/coins.android
+      Name: assets/_assets/uiassets/uiprefabs/common/loadingtest.android
       Dependencies: {}
     Info_6:
-      Name: assets/res/audios/sfx/sfx1/correct.android
+      Name: assets/_assets/uiassets/uianim/loginpanel.android
       Dependencies: {}
     Info_7:
-      Name: assets/res/audios/sfx/sfx1/explosion.android
-      Dependencies: {}
+      Name: assets/_assets/uiassets/uiprefabs/common/loginpanel.android
+      Dependencies:
+        Dependency_0: assets/_assets/uiassets/uitextures/common.android
+        Dependency_1: assets/_assets/uiassets/uianim/loginpanel.android
     Info_8:
-      Name: assets/res/windows/mainwindow.android
-      Dependencies:
-        Dependency_0: assets/res/atlas/shareatlas/spriteatlas/playerpreview.android
-        Dependency_1: assets/res/atlas/shareatlas/tutorialatlas.android
+      Name: assets/_assets/uiassets/uiprefabs/common/uianimmask.android
+      Dependencies: {}
     Info_9:
-      Name: assets/res/buildinresources/buildinmaterials.android
-      Dependencies:
-        Dependency_0: shaderlist.android
+      Name: assets/_assets/uiassets/uiprefabs/common/uiback.android
+      Dependencies: {}
     Info_10:
-      Name: shaderlist.android
+      Name: assets/_assets/uiassets/uiprefabs/common/uiroot.android
       Dependencies: {}
     Info_11:
-      Name: assets/res/prefabs/imagebuildin.android
-      Dependencies:
-        Dependency_0: assets/res/buildinresources/buildinmaterials.android
+      Name: assets/_assets/scenes/bootstrarp.android
+      Dependencies: {}
     Info_12:
-      Name: assets/res/prefabs/rawimagebuildin.android
-      Dependencies:
-        Dependency_0: assets/res/buildinresources/buildinmaterials.android
-        Dependency_1: assets/res/buildinresources/buildintextures.android
+      Name: assets/_assets/scenes/main.android
+      Dependencies: {}
     Info_13:
-      Name: assets/res/buildinresources/buildintextures.android
+      Name: assets/_assets/table/databytes/t_authorinfo.android
       Dependencies: {}
     Info_14:
-      Name: assets/res/prefabs/sfxtemplate.android
+      Name: assets/_assets/hotfix/hotfix_project.dll.android
       Dependencies: {}
     Info_15:
-      Name: assets/res/rendertextures/videorendertexture.android
+      Name: assets/_assets/hotfix/hotfix_project.pdb.android
       Dependencies: {}
     Info_16:
-      Name: assets/res/videos/xuezhihua.android
-      Dependencies: {}
-    Info_17:
-      Name: assets/res/prefabs/videoplayerroot.android
-      Dependencies:
-        Dependency_0: assets/res/rendertextures/videorendertexture.android
-        Dependency_1: assets/res/videos/xuezhihua.android
-    Info_18:
-      Name: assets/res/sharematerials/sharebluematerial.android
-      Dependencies:
-        Dependency_0: shaderlist.android
-    Info_19:
-      Name: assets/res/sharematerials/sharematerial.android
-      Dependencies:
-        Dependency_0: shaderlist.android
-    Info_20:
-      Name: assets/res/sharematerials/shareredmaterial.android
-      Dependencies:
-        Dependency_0: shaderlist.android
-    Info_21:
-      Name: assets/res/actors/cube.android
-      Dependencies:
-        Dependency_0: assets/res/sharematerials/sharematerial.android
-    Info_22:
-      Name: assets/res/actors/sphere.android
-      Dependencies:
-        Dependency_0: assets/res/sharematerials/sharematerial.android
-    Info_23:
-      Name: assets/res/actors/testbyfileandsubfolder.android
-      Dependencies: {}
-    Info_24:
-      Name: assets/res/actors/zombunny.android
-      Dependencies:
-        Dependency_0: shaderlist.android
-        Dependency_1: assets/res/shaders/rim lit bumped specular.android
-    Info_25:
-      Name: assets/res/shaders/rim lit bumped specular.android
-      Dependencies:
-        Dependency_0: shaderlist.android
-    Info_26:
-      Name: assets/res/scenes/newassetbundleframeworkscene.android
-      Dependencies:
-        Dependency_0: assets/res/prefabs/videoplayerroot.android
-        Dependency_1: assets/res/textures/chaichainingwang.android
-    Info_27:
-      Name: assets/res/textures/chaichainingwang.android
-      Dependencies: {}
-    Info_28:
-      Name: assets/res/scenes/sceneprefabs/testscene2prefab.android
-      Dependencies:
-        Dependency_0: assets/res/sharematerials/sharematerial.android
-    Info_29:
-      Name: assets/res/scenes/sceneprefabs/testscene2prefab2.android
-      Dependencies:
-        Dependency_0: assets/res/sharematerials/sharematerial.android
-    Info_30:
-      Name: assets/res/scenes/sceneprefabs/testscene3prefab.android
-      Dependencies:
-        Dependency_0: assets/res/sharematerials/sharematerial.android
-    Info_31:
-      Name: assets/res/scenes/shadervariantscollectscene.android
-      Dependencies: {}
-    Info_32:
-      Name: assets/res/scenes/testscene2.android
-      Dependencies:
-        Dependency_0: assets/res/sharematerials/sharematerial.android
-        Dependency_1: assets/res/scenes/sceneprefabs/testscene2prefab.android
-        Dependency_2: assets/res/scenes/sceneprefabs/testscene2prefab2.android
-    Info_33:
-      Name: assets/res/scenes/testscene3.android
-      Dependencies:
-        Dependency_0: assets/res/sharematerials/sharematerial.android
-        Dependency_1: assets/res/scenes/sceneprefabs/testscene3prefab.android
-    Info_34:
-      Name: assets/res/textures/chaichaifengjing.android
-      Dependencies: {}
-    Info_35:
-      Name: assets/res/textures/chaichaishenqingzhushi.android
-      Dependencies: {}
-    Info_36:
       Name: assetbuildinfoandroid.android
       Dependencies: {}

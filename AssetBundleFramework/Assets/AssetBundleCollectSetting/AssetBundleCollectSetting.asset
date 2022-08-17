@@ -13,71 +13,31 @@ MonoBehaviour:
   m_Name: AssetBundleCollectSetting
   m_EditorClassIdentifier: 
   AssetBundleCollectors:
-  - CollectFolderPath: Assets/Res/atlas
+  - CollectFolderPath: Assets/_assets/uiassets/uitextures
     CollectRule: 0
     BuildRule: 2
     ConstName: 
-  - CollectFolderPath: Assets/Res/audios
-    CollectRule: 0
-    BuildRule: 1
-    ConstName: 
-  - CollectFolderPath: Assets/Res/windows
-    CollectRule: 0
-    BuildRule: 1
-    ConstName: 
-  - CollectFolderPath: Assets/Res/prefabs
-    CollectRule: 0
-    BuildRule: 1
-    ConstName: 
-  - CollectFolderPath: Assets/Res/buildinresources/buildinmaterials
-    CollectRule: 0
-    BuildRule: 2
-    ConstName: 
-  - CollectFolderPath: Assets/Res/buildinresources/buildintextures
-    CollectRule: 0
-    BuildRule: 2
-    ConstName: 
-  - CollectFolderPath: Assets/Res/sharematerials
-    CollectRule: 0
-    BuildRule: 1
-    ConstName: 
-  - CollectFolderPath: Assets/Res/buildinresources/buildinshaders/DefaultResources
-    CollectRule: 0
-    BuildRule: 3
-    ConstName: shaderlist
-  - CollectFolderPath: Assets/Res/buildinresources/buildinshaders/DefaultResourcesExtra
-    CollectRule: 0
-    BuildRule: 3
-    ConstName: shaderlist
-  - CollectFolderPath: Assets/Res/shadervariants
-    CollectRule: 0
-    BuildRule: 3
-    ConstName: shaderlist
-  - CollectFolderPath: Assets/Res/actors
-    CollectRule: 0
-    BuildRule: 4
-    ConstName: 
-  - CollectFolderPath: Assets/Res/atlas/shareatlas/SpriteAtlas/spritealtas
+  - CollectFolderPath: Assets/_assets/uiassets/uialtas
     CollectRule: 1
     BuildRule: 5
     ConstName: 
-  - CollectFolderPath: Assets/Res/assetbuildinfo
-    CollectRule: 1
-    BuildRule: 5
-    ConstName: 
-  - CollectFolderPath: Assets/Res/scenes
+  - CollectFolderPath: Assets/_assets/uiassets/uiprefabs
     CollectRule: 0
     BuildRule: 1
     ConstName: 
-  - CollectFolderPath: Assets/Res/textures
+  - CollectFolderPath: Assets/_assets/uiassets/uianim
+    CollectRule: 0
+    BuildRule: 2
+    ConstName: 
+  - CollectFolderPath: Assets/_assets/scenes
     CollectRule: 0
     BuildRule: 1
     ConstName: 
-  - CollectFolderPath: Assets/Res/videos
+  - CollectFolderPath: Assets/_assets/table/databytes
     CollectRule: 0
     BuildRule: 1
     ConstName: 
-  - CollectFolderPath: Assets/Res/rendertextures
+  - CollectFolderPath: Assets/_assets/hotfix
     CollectRule: 0
     BuildRule: 1
     ConstName: 

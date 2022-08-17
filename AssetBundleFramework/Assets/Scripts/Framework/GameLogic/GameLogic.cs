@@ -161,7 +161,7 @@ public class GameLogic : MonoBehaviour
         //不需要强更走后判定资源热更流程
         if (HotUpdateModuleManager.Singleton.checkResourceHotUpdate(HotUpdateModuleManager.Singleton.ServerVersionConfig.ResourceVersionCode))
         {
-            //单独开启一个携程打印强更进度
+            //单独开启一个携程打印热更进度
             StartCoroutine(printVersionHotUpdateProgressCoroutine());
             HotUpdateModuleManager.Singleton.doResourceHotUpdate(
                 HotUpdateModuleManager.Singleton.ServerVersionConfig.ResourceVersionCode,
@@ -200,6 +200,7 @@ public class GameLogic : MonoBehaviour
         {
             yield return new WaitForSeconds(1.0f);
             Debug.Log(string.Format("当前版本热更进度 : {0}", HotUpdateModuleManager.Singleton.HotResourceUpdateProgress));
+            //可以在面板上显示出来
         }
     }
 

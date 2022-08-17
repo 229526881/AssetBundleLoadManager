@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 1088161516
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7ea5762baac48ddbe180c2104f69d441
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 68a9f945b2aa0b223f6cacc5dbb7daa6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: c3e1079d34893fa428745291fa16aa7a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 408d766d727e12644b9f97c9e4e0fabe, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+Assets:
+- Assets/_assets/uiassets/uiprefabs/common/LoadingTest.prefab
+Dependencies: []

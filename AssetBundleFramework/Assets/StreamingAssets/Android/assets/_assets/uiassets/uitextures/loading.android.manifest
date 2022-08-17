@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 1492281593
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a70f03dd7c354af22b74998a95167ffa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7c2540343e88b2e84dfdbf2d12e7f16d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_assets/uiassets/uitextures/loading/jindutiaodi.png
+- Assets/_assets/uiassets/uitextures/loading/bgTest.png
+- Assets/_assets/uiassets/uitextures/loading/weiqi.png
+- Assets/_assets/uiassets/uitextures/loading/bg.png
+- Assets/_assets/uiassets/uitextures/loading/lunzi.png
+- Assets/_assets/uiassets/uitextures/loading/shenti.png
+- Assets/_assets/uiassets/uitextures/loading/fawei.png
+- Assets/_assets/uiassets/uitextures/loading/tou.png
+- Assets/_assets/uiassets/uitextures/loading/yuchi.png
+- Assets/_assets/uiassets/uitextures/loading/jindutiao.png
+- Assets/_assets/uiassets/uitextures/loading/weiba.png
+- Assets/_assets/uiassets/uitextures/loading/fasier.png
+Dependencies: []

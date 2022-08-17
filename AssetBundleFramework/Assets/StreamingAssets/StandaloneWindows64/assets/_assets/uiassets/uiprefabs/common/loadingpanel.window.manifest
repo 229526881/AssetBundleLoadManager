@@ -1,0 +1,65 @@
+ManifestFileVersion: 0
+CRC: 3840211147
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 86e6c930e92e8c52a1c753713fba536e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c8c24b71fbf1386696e6720e2da66ea1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c3e1079d34893fa428745291fa16aa7a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 408d766d727e12644b9f97c9e4e0fabe, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Slider/SliderEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+Assets:
+- Assets/_assets/uiassets/uiprefabs/common/LoadingPanel.prefab
+Dependencies:
+- F:/AllProject/Unity/AssetBundleLoadManage/AssetBundleFramework/Assets/StreamingAssets/StandaloneWindows64/assets/_assets/uiassets/uianim/loading.window
+- F:/AllProject/Unity/AssetBundleLoadManage/AssetBundleFramework/Assets/StreamingAssets/StandaloneWindows64/assets/_assets/uiassets/uitextures/loading.window

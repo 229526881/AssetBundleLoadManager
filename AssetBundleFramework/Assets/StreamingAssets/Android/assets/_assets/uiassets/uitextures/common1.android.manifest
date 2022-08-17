@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 769794397
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 50201ed171ec9ddc54b293c0af974795
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7c2540343e88b2e84dfdbf2d12e7f16d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_assets/uiassets/uitextures/common1/zuobian.png
+- Assets/_assets/uiassets/uitextures/common1/Common1.spriteatlas
+Dependencies: []

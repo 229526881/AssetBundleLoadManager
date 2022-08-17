@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1793683116
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 35f913825ef9f9d4df1ce4002f1a65b0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bbfaa0f72a86ec3f92b1fc3129632085
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_assets/uiassets/uianim/loginPanel/In.anim
+- Assets/_assets/uiassets/uianim/loginPanel/LoginPanel.controller
+Dependencies: []

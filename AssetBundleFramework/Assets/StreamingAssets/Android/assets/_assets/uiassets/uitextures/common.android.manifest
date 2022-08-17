@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1363121881
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0f34cd192ecf9965a32706941462c990
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7c2540343e88b2e84dfdbf2d12e7f16d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_assets/uiassets/uitextures/common/btn4.png
+- Assets/_assets/uiassets/uitextures/common/blackMask.png
+- Assets/_assets/uiassets/uitextures/common/backmask.png
+Dependencies: []
